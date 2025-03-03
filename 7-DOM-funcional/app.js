@@ -160,3 +160,6 @@
             editarComentario(event);
         }
     });
+
+    let boton = document.getElementById('miBoton'); boton.addEventListener('click', function() { alert('¡Botón clickeado!'); });
+

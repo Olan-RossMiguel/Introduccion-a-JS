@@ -74,7 +74,7 @@ function mostrarLibro(array) {
         document.body.innerHTML += listaLibros; 
     }
 }
-
+document.getElementById('miElemento').addEventListener('mouseover', function() { alert('¡Mouse sobre el elemento!'); });
 
 agregarLibro();
 mostrarLibro(librosLeidos);
